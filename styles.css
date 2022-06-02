@@ -1,3 +1,4 @@
+/* Main site */
 #social {
   text-align: center;
 }
@@ -20,4 +21,101 @@
 
 .container {
   padding: 2em;
+}
+
+/* CV */
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Liberation Sans", sans-serif;
+}
+
+h4 a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.cv-logo {
+  width: 48px;
+  height: 48px;
+}
+
+.cv-logo-container {
+  margin: 8px;
+}
+
+.cv-image {
+  width: 100%;
+  height: auto;
+  max-height: 48px;
+}
+
+.flex {
+  display: flex;
+}
+
+.section {
+  margin-top: 0;
+}
+
+.section > h2 {
+  border-top: 1px solid hsl(210, 8%, 85%);
+}
+
+.section .position-title {
+  margin: 0 0 2px 0;
+}
+
+.section .company-url,
+.section .dates {
+  margin: 0 0 8px 0;
+}
+
+.section .technologies {
+  margin: 8px 0 16px 0;
+}
+
+.section-info > h1,
+.section-info > p {
+  margin: 10px 0;
+}
+
+.tag:hover {
+  color: rgb(44, 88, 119);
+  background-color: rgb(208, 227, 241);
+  text-decoration: rgb(44, 88, 119);
+}
+
+.tag {
+  color: rgb(57, 115, 157);
+  background-color: rgb(225, 236, 244);
+  text-decoration: rgb(57, 115, 157);
+
+  display: inline-block;
+  margin: 2px 2px 2px 0;
+  padding: .4em .5em;
+  vertical-align: center;
+
+  text-align: center;
+  line-height: 1;
+  border: 1px solid #FFF;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+.tag-link:hover {
+  color: rgb(10, 149, 255);
+  text-decoration: rgb(10, 149, 255);
+
+}
+
+.tag-link {
+  color: rgb(0, 116, 204);
+  text-decoration: rgb(0, 116, 204);
 }
