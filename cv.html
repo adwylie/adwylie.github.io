@@ -35,6 +35,7 @@ experiences:
       url: https://www.westerndigital.com/
       logo: img/cv/logo-western-digital.png
     start-date: 2020-05-11
+    end-date: 2023-05-24
     technologies:
       - php
       - java
@@ -48,16 +49,35 @@ experiences:
       - github actions
       - pulumi
     description:
+      - Over my three years at Western Digital I was involved in several main
+        activities: PHP-based server-side development to support the EdgeRover
+        application, Java cloud services development, and an overhaul of the CI/CD
+        process.
       - During my first year at Western Digital I worked as part of a small
-        cross-functional team to develop a backend service & API for file
-        management. The service allows users to link social & other 3rd party
-        accounts (eg. Facebook, Google Drive) to their WD account via an oauth
-        flow for centralized access to files and their metadata.
-      - After this project our team transitioned to work on the maintenance of
-        the cloud microservices that expose internal APIs supporting the suite
-        of WD devices.
-      - More recently our team has been leading a project to overhaul the
-        company's internal CI/CD process.
+        cross-functional team on the modification of an acquired PHP-based backend
+        service for content cataloguing and management. Our solution supported the
+        EdgeRover application by indexing and providing centralized access (via
+        OAuth flows) to user's files and their metadata as retrieved from multiple
+        3rd party sources (eg. Facebook, Flickr, Google Drive). Some highlights of
+        my contributions during this time include improvements to thumbnail
+        generation and increasing feature parity across integrations (Dropbox,
+        Flickr).
+      - After supporting the EdgeRover application our team joined the DevOps
+        group in an effort to improve the CI/CD process. Given a directive to
+        decrease build & deployment times we began by assessing our current tools
+        in comparison to possible alternatives, eventually opting to transition to
+        GitHub, GitHub Actions (GHA), Pulumi for IaC, and JFrog Artifactory. My
+        contributions on this project included architecture documentation and
+        recommendations for the code build automation tool, versioning approach,
+        and artifact storage, as well as templated workflows for GHA. By the end
+        of the project (cut short as it was put on hold) we had a successful proof
+        of concept available that when extended to all microservices would reduce
+        build & deployment times by an expected order of magnitude.
+      - The remainder of my time at Western Digital consisted of supporting the
+        cloud services. Specifically this meant bug fixes, security patches, minor
+        feature requests, and other maintenance items related to a few dozen Java
+        (Spring Boot) and NodeJS-based mircoservices that support the suite of WD
+        devices.
   - position: Cloud Designer
     company:
       name: Nuvyyo
